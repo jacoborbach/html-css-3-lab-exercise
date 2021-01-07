@@ -93,7 +93,7 @@ a {
   color: #fed236;
 }
 
-@media(max-width: 755px) {
+@media(max-width: 867px) {
   a {
     color:white;
   }
@@ -123,7 +123,34 @@ a {
     top:75px;
     background: #212629;
   }
+
+  .subheading{
+    font-size: 38px;
+  }
+
+  .heading {
+    font-size: 51px;
+  }
+
+  .btn {
+    font-size: larger;
+    padding: 20px;
+    margin-top: 20px;
+  }
 }
 
+@media(max-width: 629px) {
+  .subheading{
+    font-size: 24px;
+  }
 
+  .heading {
+    font-size: 38px;
+  }
 
+  .btn {
+    font-size: large;
+    padding: 15px;
+    margin-top: 15px;
+  }
+}

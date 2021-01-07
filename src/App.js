@@ -39,14 +39,6 @@ class App extends Component {
 
         </div>
 
-        {/* Mobile Navbar */}
-
-
-
-
-
-
-
         {/* Header aka picture with header */}
         <header className="header">
           <div className='container'>
