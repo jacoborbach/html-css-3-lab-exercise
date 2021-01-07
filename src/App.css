@@ -35,6 +35,13 @@
   margin: 20px;
 }
 
+.dropdown {
+  display: none;
+  color: white;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
 .btn {
   padding: 23px;
   font-size: larger;
@@ -45,9 +52,16 @@
   border-radius: 5%;
 }
 
-.nav{
+.desktopnav{
   padding-top: 1.5em;
   padding-bottom: 1.5em;
+}
+
+.mobilenavbar {
+  display: none;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  color: white;
 }
 
 body {
@@ -79,12 +93,26 @@ a {
   color: #fed236;
 }
 
-@media(max-width: 992px) {
+@media(max-width: 755px) {
+  .dropdown {
+    display: initial;
+  }
+  
+  .desktopnav {
+    display: none;
+  }
+  
   .navbar {
     background-color: #212629;
   }
-  a {
-    color: white;
+
+  .mobilenavbar {
+    display: initial;
+    display: flex;
+    flex-direction: column;
+    right: 0
   }
 }
+
+
 
