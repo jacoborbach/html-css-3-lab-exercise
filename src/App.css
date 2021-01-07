@@ -94,8 +94,8 @@ a {
 }
 
 @media(max-width: 755px) {
-  .dropdown {
-    display: initial;
+  a {
+    color:white;
   }
   
   .desktopnav {
@@ -106,11 +106,22 @@ a {
     background-color: #212629;
   }
 
+  .dropdown {
+    display: initial;
+    cursor: pointer;
+  }
+
   .mobilenavbar {
     display: initial;
     display: flex;
     flex-direction: column;
-    right: 0
+    position: fixed;
+    justify-content: space-evenly;
+    right: 0;
+    height: 250px;
+    width: 250px;
+    top:75px;
+    background: #212629;
   }
 }
 
